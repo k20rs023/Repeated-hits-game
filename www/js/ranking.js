@@ -27,7 +27,7 @@ function checkRanking() {
       setData(results);
     })
     .catch(function (error) {
-      console.log("検索に失敗しました。エラー:" + error);
+      console.log("検索に失敗しました。");
     });
 
   // ******************************************************

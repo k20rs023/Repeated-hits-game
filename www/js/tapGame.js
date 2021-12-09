@@ -47,7 +47,7 @@ function saveScore(name, score) {
       console.log("保存に成功しました。");
     })
     .catch(function (error) {
-      console.log("保存に失敗しました。エラー:" + error);
+      console.log("保存に失敗しました。");
     });
 
   // ********************************************************
